@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin: 0;
+padding: 0;	
+}
+.wrapper{
+width: 1200px;
+margin: 0 auto;
+}
+.header{
+width: 100%;
+background: grey;
+padding: 10px 0;
+display: flex;
+justify-content: space-between;
+}
+.logo{
+width: 20%;
+height: 100px;
+background: red;		
+}
+.menu{
+width: 79%;
+height: 100px;
+background: red;	
+}
+.left{
+width: 45%;
+height: 200px;
+background: red;	
+}
+.main{
+background: lightgrey;
+padding: 10px 0;
+margin-top: 10px;	
+}
+.section1{
+display: flex;
+justify-content: space-around;
+}
+.box{
+width: 30%;
+height: 200px;
+background: red;	
+}
+.section2{
+display: flex;
+justify-content: space-around;
+padding: 10px 0;
+background: blue;
+margin-top: 10px;	
+}

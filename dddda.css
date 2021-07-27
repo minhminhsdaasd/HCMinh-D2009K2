@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin: 0;
+padding: 0;	
+}
+.container{
+width: 1200px;
+padding: 50px;
+background: lightgrey;
+display: flex;
+flex-wrap: wrap;
+margin: 0 auto;
+}
+.box{
+width: 200px;
+height: 200px;
+background: grey;
+overflow: scroll;
+margin: 20px;
+transition-duration: 1s;	
+}
+.box img{
+height: 100%;	
+}
+.addcolor{
+filter: grayscale(100%)
+}
+.addcolor:hover{
+filter: grayscale(100%)
+}
+.grayscale:hover{
+filter: grayscale(100%)
+}
+.glow:hover{
+filter: brightness(150%)
+}
+.blur:hover{
+filter: blur(2px) brightness(50%) grayscale(100%)
+}
+.dropshadow:hover{
+filter:  drop-shadow(5px 5px 20px black) saturate(8);
+}
+.multiply:hover{
+mix-blend-mode: multiply;
+}
+.screen:hover{
+mix-blend-mode: screen;
+}

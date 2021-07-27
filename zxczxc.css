@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin: 0;
+padding: 0;	
+}
+.header{
+width: 30%;
+background: grey;
+position: fixed;
+right: 0;
+padding: 60px 100px 60px 170px;	
+}
+.number{
+background: pink;	
+}
+.number h3{
+word-spacing: 6px;
+}
+.logo{
+background: rgba(209,211,96,1.00);
+padding-top: 150px;	
+}
+.logo a{
+color:#1F1F1F;
+text-decoration: none;
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 6px;
+word-spacing: 5px;	
+}
+.nav{
+padding-top: 50px;	
+}
+.nav ul{
+list-style: none;	
+}
+.nav ul li{
+margin-bottom: 16px;	
+}
+.nav ul li a{
+color: #1F1F1F;
+text-decoration: none;
+}
+.nav ul li a:hover{
+color: #F44647;	
+}
+.soccial a{
+margin-right:20px;
+color: #1F1F1F;
+font-weight: 300;
+font-size: 14px;	
+}
+.soccial a:hover{
+color: #F44647;	
+}
+.main{
+width: 60%;
+height: 1000px;
+background: #FFF0F0;
+padding-left: 150px;
+padding-top: 60px;	
+}
+.banner{
+height: 100vh;
+position: relative;
+}
+.banner h1{
+position: absolute;
+font-size: 140px;
+font-weight: 600;
+z-index: 2;
+color: #F44647;
+line-height: 140px;
+bottom: 180px;	
+}
+.img-box{
+position: absolute;
+right: 150px;
+width: 500px;
+overflow: hidden;
+height: 600px;	
+}
+.img-box img{
+width: 100%;	
+}
